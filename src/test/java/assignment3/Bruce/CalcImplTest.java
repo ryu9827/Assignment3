@@ -32,18 +32,15 @@ public class CalcImplTest extends TestCase {
 	}
 
 	public void testSubtract() {
-		fail();
-//		assertEquals(-3, obj.subtract(a, b));
+		assertEquals(-3, obj.subtract(a, b));
 	}
 
 	public void testMultiply() {
-		fail();
-//		assertEquals(28, obj.multiply(a, b));
+		assertEquals(28, obj.multiply(a, b));
 	}
 
 	public void testDivide() {
-		fail();
-//		assertEquals((double) 4/7, (double) obj.divide(a, b));
+		assertEquals((double) 4/7, (double) obj.divide(a, b));
 	}
 
 }
